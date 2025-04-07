@@ -12,6 +12,7 @@
     font-size:x-large;
     align-items: center;
     text-align: center;
+    scroll-behavior: smooth;
     }
 
     .menu{
@@ -45,7 +46,6 @@
         opacity: 0.6;
         line-height: 1.8;
         font-size: x-large;
-        
     }
 
 
@@ -55,17 +55,17 @@
         background-image: url("https://dreamyouritaly.com/wp-content/uploads/2021/06/VENEZIA-area-view-3.jpg");
         background-position: bottom;
         background-size: cover; 
-        margin: 7px;
+        margin: 10px;
         padding:7px;
     }
 
     #places{
         display: flex;
         flex-direction: row-reverse;
-        background-image: url("https://www.travelitaly.co.il/wp-content/uploads/2023/05/%D7%9E%D7%92%D7%93%D7%9C-%D7%94%D7%A7%D7%9E%D7%A4%D7%99%D7%A0%D7%9C%D7%94-%D7%A9%D7%9C-%D7%A1%D7%9F-%D7%9E%D7%A8%D7%A7%D7%95-%D7%91%D7%95%D7%A0%D7%A6%D7%99%D7%94.jpg");
+        background-image: url("https://www.familytour.co.il/wp-content/uploads/2017/02/venice-1896152_1920-1500x500.jpg");
         background-position: bottom;
         background-size: cover;
-        margin: 7px;
+        margin: 10px;
         padding: 7px;
     }
 
@@ -75,7 +75,7 @@
         background-image: url("https://static.eshet.com/3820/shutterstock_123625909.jpg");
         background-position: center;
         background-size: cover;
-        margin: 7px;
+        margin: 10px;
         padding: 7px;
     }
 
@@ -85,7 +85,8 @@
         object-fit: cover;
         margin: 5px;
         align-items: center;
-        justify-content: center;
+        border: 2px solid;
+        border-color: white;
     }
   
 
@@ -95,8 +96,7 @@
         justify-content: center;
         text-align: center;
         gap: 20px;
-        padding: 40px 20px;
-        border: 1px;
+        padding:40px 20px;
     }
 
     #cards h2{
@@ -105,43 +105,51 @@
 
     .cards-container{
         display: flex;
-        flex-direction:column;
         align-items: center;
         text-align: center;
         box-sizing: border-box;
+        width: 100%;
+    }
+   
+    .card{
+        display: flex;
+        justify-self: start;
+        flex-direction:column;
+        align-items: center;
         width: 320px;
         height: 200px;
+        padding: 2px;
         border: 1px solid;
-        padding: 5px;
-        margin: 5px;
+        margin: 10px;
         background-color: rgb(154, 203, 208);
-        
     }
-
     .card h2{
         text-align: center;
     }
 
-   
+    .card p{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        text-align: center;
+        font-size: medium;
+    }
+
     .card img{
+        display: flex;
+        flex-direction: column;
         width: 100%;
         max-height: 180px;
         object-fit: cover;
         margin-bottom: 2px;
     }
 
-    .card p{
-        margin-top: 0;
-        font-size: medium;
-    }
-
-
 
 
     footer{
         align-items: center;
-        background-image: url("");
-        background-position: center;
+        background-image: url("https://www.elal.com/magazine/wp-content/uploads/2017/06/shutterstock_420247819.jpg");
+        background-position:center;
         background-size: cover;
     }
     footer h2{
@@ -156,5 +164,6 @@
         list-style-position: outside;
         padding: 0;
         margin: 0;
-        font-size: larger;
+        font-size: x-large;
+        line-height: 1.6;
     }
