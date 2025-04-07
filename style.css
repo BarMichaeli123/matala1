@@ -32,12 +32,14 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin-bottom: 20px;
    }
 
    .hero-section h2{
     text-align: center;
     background-color: white;
     opacity: 0.6;
+    margin-left: 16px;
    }
 
     .hero-section p{
@@ -46,12 +48,17 @@
         opacity: 0.6;
         line-height: 1.8;
         font-size: x-large;
+        margin-left: 16px;
+        padding: 3px;
+    
     }
 
 
     #information{
         display: flex;
-        flex-direction: row-reverse;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
         background-image: url("https://dreamyouritaly.com/wp-content/uploads/2021/06/VENEZIA-area-view-3.jpg");
         background-position: bottom;
         background-size: cover; 
@@ -61,7 +68,9 @@
 
     #places{
         display: flex;
-        flex-direction: row-reverse;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
         background-image: url("https://www.familytour.co.il/wp-content/uploads/2017/02/venice-1896152_1920-1500x500.jpg");
         background-position: bottom;
         background-size: cover;
@@ -71,7 +80,9 @@
 
     #culture{
         display: flex;
-        flex-direction: row-reverse;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
         background-image: url("https://static.eshet.com/3820/shutterstock_123625909.jpg");
         background-position: center;
         background-size: cover;
@@ -80,23 +91,26 @@
     }
 
     .img{
-        width: 300px; ;
-        height: 200px;
+        width: 290px;
+        height: 220px;
+        vertical-align: middle;
         object-fit: cover;
-        margin: 5px;
         align-items: center;
+        margin: 5px;
         border: 2px solid;
         border-color: white;
+        direction: ltr;
     }
   
 
     #cards{
-        display:flex;
-        flex-wrap: wrap;
+       
         justify-content: center;
         text-align: center;
         gap: 20px;
         padding:40px 20px;
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
 
     #cards h2{
@@ -105,6 +119,8 @@
 
     .cards-container{
         display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
         align-items: center;
         text-align: center;
         box-sizing: border-box;
@@ -113,7 +129,6 @@
    
     .card{
         display: flex;
-        justify-self: start;
         flex-direction:column;
         align-items: center;
         width: 320px;
@@ -122,6 +137,8 @@
         border: 1px solid;
         margin: 10px;
         background-color: rgb(154, 203, 208);
+        box-sizing: border-box;
+        margin-bottom: 15px;
     }
     .card h2{
         text-align: center;
@@ -129,10 +146,11 @@
 
     .card p{
         display: flex;
-        flex-direction: column;
+        flex-direction:column;
         margin-top: 0;
         text-align: center;
         font-size: medium;
+        max-height: 40px;
     }
 
     .card img{
@@ -141,7 +159,7 @@
         width: 100%;
         max-height: 180px;
         object-fit: cover;
-        margin-bottom: 2px;
+        margin-bottom:2px;
     }
 
 
