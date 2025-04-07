@@ -5,6 +5,7 @@
     direction: rtl;
     text-align: right;
     background-color: aliceblue;
+    scroll-behavior: smooth;
     
 }
 
@@ -12,7 +13,6 @@
     font-size:x-large;
     align-items: center;
     text-align: center;
-    scroll-behavior: smooth;
     }
 
     .menu{
