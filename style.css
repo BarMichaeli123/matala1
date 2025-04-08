@@ -50,7 +50,6 @@
         font-size: x-large;
         margin-left: 16px;
         padding: 3px;
-    
     }
 
 
@@ -104,10 +103,8 @@
   
 
     #cards{
-       
         justify-content: center;
         text-align: center;
-        gap: 20px;
         padding:40px 20px;
         margin-top: 40px;
         margin-bottom: 40px;
@@ -121,10 +118,9 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        align-items: center;
-        text-align: center;
-        box-sizing: border-box;
+        gap: 10px;
         width: 100%;
+        padding: 10px;
     }
    
     .card{
@@ -133,31 +129,32 @@
         align-items: center;
         width: 320px;
         height: 200px;
-        padding: 2px;
+        box-sizing: border-box;
         border: 1px solid;
         margin: 10px;
         background-color: rgb(154, 203, 208);
-        box-sizing: border-box;
-        margin-bottom: 15px;
     }
+
     .card h2{
+        margin-top: 0;
         text-align: center;
     }
 
     .card p{
         display: flex;
         flex-direction:column;
-        margin-top: 0;
+        margin: 0;
         text-align: center;
         font-size: medium;
         max-height: 40px;
+        padding:0;
     }
 
     .card img{
         display: flex;
         flex-direction: column;
         width: 100%;
-        max-height: 180px;
+        height: 135px;
         object-fit: cover;
         margin-bottom:2px;
     }
@@ -170,6 +167,7 @@
         background-position:center;
         background-size: cover;
     }
+    
     footer h2{
         text-align: center;
     }
