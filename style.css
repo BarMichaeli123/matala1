@@ -58,7 +58,7 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        background-image: url("https://dreamyouritaly.com/wp-content/uploads/2021/06/VENEZIA-area-view-3.jpg");
+        background-image: url("./תמונות/מידע\ רקע.jpg");
         background-position: bottom;
         background-size: cover; 
         margin: 10px;
@@ -70,7 +70,7 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        background-image: url("https://www.familytour.co.il/wp-content/uploads/2017/02/venice-1896152_1920-1500x500.jpg");
+        background-image: url("./תמונות/רקע\ אדריכלות.jpg");
         background-position: bottom;
         background-size: cover;
         margin: 10px;
@@ -82,7 +82,7 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        background-image: url("https://static.eshet.com/3820/shutterstock_123625909.jpg");
+        background-image: url("./תמונות/רקע\ מסורת.jpg");
         background-position: center;
         background-size: cover;
         margin: 10px;
@@ -90,7 +90,7 @@
     }
 
     .img{
-        width: 290px;
+        width: 295px;
         height: 220px;
         vertical-align: middle;
         object-fit: cover;
@@ -163,7 +163,7 @@
 
     footer{
         align-items: center;
-        background-image: url("https://www.elal.com/magazine/wp-content/uploads/2017/06/shutterstock_420247819.jpg");
+        background-image: url("./תמונות/רקע\ פוטר.avif");
         background-position:center;
         background-size: cover;
     }
