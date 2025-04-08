@@ -6,7 +6,6 @@
     text-align: right;
     background-color: aliceblue;
     scroll-behavior: smooth;
-    
 }
 
 .header{
@@ -35,14 +34,24 @@
     margin-bottom: 20px;
    }
 
-   .hero-section h2{
+   .section{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-position: center;
+        background-size: cover;
+        margin: 10px;
+        padding: 7px;
+    }
+   .section h2{
     text-align: center;
     background-color: white;
     opacity: 0.6;
     margin-left: 16px;
    }
 
-    .hero-section p{
+    .section p{
         text-align: center;
         background-color: white;
         opacity: 0.6;
@@ -52,41 +61,17 @@
         padding: 3px;
     }
 
-
+    
     #information{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
         background-image: url("./תמונות/מידע\ רקע.jpg");
-        background-position: bottom;
-        background-size: cover; 
-        margin: 10px;
-        padding:7px;
     }
 
     #places{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
         background-image: url("./תמונות/רקע\ אדריכלות.jpg");
-        background-position: bottom;
-        background-size: cover;
-        margin: 10px;
-        padding: 7px;
     }
 
     #culture{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
         background-image: url("./תמונות/רקע\ מסורת.jpg");
-        background-position: center;
-        background-size: cover;
-        margin: 10px;
-        padding: 7px;
     }
 
     .img{
